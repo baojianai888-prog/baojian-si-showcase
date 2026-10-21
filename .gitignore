@@ -1,0 +1,41 @@
+# Secrets and machine-local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*
+secrets/
+.ssh/
+.aws/
+# Sensitive inputs and raw exports
+private/
+local/
+raw/
+customer-data/
+backups/
+exports/
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+.next/
+coverage/
+.venv/
+__pycache__/
+*.pyc
+*.log
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
